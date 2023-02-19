@@ -16,13 +16,9 @@ int InputInt(string message)
 int WeekDay = InputInt("Введите день недели");
      if (WeekDay == 7 || WeekDay== 6)
 {
-    System.Console.WriteLine("Выходной");
+    System.Console.WriteLine("Да");
 }
     else
 {
-    System.Console.WriteLine("Рабочий день");
-}
-    if (WeekDay > 7 || WeekDay < 1)
-{
-    System.Console.WriteLine("Такого дня недели 'Don't exist'");
+    System.Console.WriteLine("Нет");
 }

@@ -9,7 +9,7 @@
 
 int InputInt (string message)
 {
-    Console.Write(message + " > " ); 
+    Console.Write(message + "  " ); 
     string? inputValue = Console.ReadLine();
     int result = Convert.ToInt32(inputValue);
     return result;
@@ -27,5 +27,5 @@ int number = InputInt("Введите трехзначное число");
 if(Validate(number))
 {
     int LastRank = ((number/10) % 10);
-    System.Console.WriteLine($"Вторая цифра числа {number} равна {LastRank}");
+    System.Console.WriteLine($" {LastRank}");
 }

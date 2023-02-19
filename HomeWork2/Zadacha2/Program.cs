@@ -22,5 +22,5 @@ int numInT = InputInt("Введите число");
     {
         numInT = numInT / 10;
     }
-    System.Console.WriteLine($" третью цифру заданного числа -: {numInT % 10}");
+    System.Console.WriteLine($" {numInT % 10}");
 }
